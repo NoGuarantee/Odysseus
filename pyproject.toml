@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "odysseus"
+version = "0.1.0"
+description = "Zero-shot evaluation pipeline for VLM agents in Super Mario Land (Odysseus protocol)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pyboy>=2.0",
+    "torch>=2.1",
+    "transformers>=4.57",
+    "qwen-vl-utils",
+    "torchvision>=0.16",
+    "pillow>=10.0",
+    "pyyaml>=6.0",
+    "tqdm>=4.66",
+    "accelerate>=0.34",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["odysseus*"]
+
+[tool.setuptools.package-data]
+odysseus = ["py.typed"]

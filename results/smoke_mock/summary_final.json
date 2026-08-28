@@ -1,0 +1,20 @@
+{
+  "num_episodes": 1,
+  "mean_progress": 69,
+  "std_progress": 0.0,
+  "mean_turns": 10,
+  "mean_parse_error_rate": 0.0,
+  "episodes": [
+    {
+      "episode": 0,
+      "progress": 69,
+      "turns": 10,
+      "died": false,
+      "parse_error_rate": 0.0
+    }
+  ],
+  "run_name": "zero_shot_1-1_20260828T154439Z",
+  "max_turns": 10,
+  "level": "1-1",
+  "timestamp": "2026-08-28T15:44:39.366434+00:00"
+}

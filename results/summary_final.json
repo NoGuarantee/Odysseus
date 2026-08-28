@@ -1,0 +1,34 @@
+{
+  "num_episodes": 3,
+  "mean_progress": 184.66666666666666,
+  "std_progress": 137.56291489916734,
+  "mean_turns": 80,
+  "mean_parse_error_rate": 0.008333333333333333,
+  "episodes": [
+    {
+      "episode": 0,
+      "progress": 330,
+      "turns": 80,
+      "died": false,
+      "parse_error_rate": 0.0
+    },
+    {
+      "episode": 1,
+      "progress": 224,
+      "turns": 80,
+      "died": false,
+      "parse_error_rate": 0.025
+    },
+    {
+      "episode": 2,
+      "progress": 0,
+      "turns": 80,
+      "died": false,
+      "parse_error_rate": 0.0
+    }
+  ],
+  "run_name": "zero_shot_1-1_20260828T154649Z",
+  "max_turns": 80,
+  "level": "1-1",
+  "timestamp": "2026-08-28T16:23:07.848833+00:00"
+}

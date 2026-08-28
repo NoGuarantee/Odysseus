@@ -1,0 +1,23 @@
+rom_path: ""  # override with MARIO_ROM_PATH env var
+
+level:
+  world: 1
+  stage: 1
+
+model_id: "Qwen/Qwen3-VL-8B-Instruct"
+
+inference:
+  temperature: 1.0
+  top_p: 1.0
+  max_new_tokens: 2048
+
+episode:
+  max_turns: 80
+  num_episodes: 3
+
+frame:
+  native_width: 160
+  native_height: 144
+  upscale_factor: 8
+
+output_dir: "results"
